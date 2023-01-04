@@ -1,0 +1,48 @@
+namespace player {
+
+	int chams_part1 = 0x2A3EB00;
+	int chams_part2 = 0x2A3EB04;
+	int chams_part3 = 0x2A3EB08;
+}
+
+namespace physics {
+
+	int phys_gravity = 0x2A4EFA0;
+}
+
+namespace movement {
+
+	int g_speed = 0x2A21E80;
+}
+
+namespace map {
+
+	int r_skyColorTemp = 0x2A3F3A0;
+	int r_skyRotation = 0x2A3F160;
+	int r_skyTransition = 0x2A3F100;
+	int r_fog = 0x2A38E60;
+	int r_fullbright = 0x2A38800;
+
+}
+
+namespace sv_com {
+
+	int sv_cheats = 0x2A209E0;
+
+}
+
+namespace cg_com {
+
+	int cg_fov = 0x2A41320;
+	int cg_fovmin = 0x2A41380;
+	int cg_fovscale = 0x2A413E0;
+	int cg_drawbigfps = 0x2A44EC0;
+	int cg_thirdperson = 0x2A45B20;
+	int cg_drawCrosshair = 0x2A45220;
+	int cg_drawgun = 0x2A44AA0;
+	int cg_gun_x = 0x2A4C240;
+	int cg_gun_y = 0x2A4C2A0;
+	int cg_gun_z = 0x2A4C300;
+	int cg_drawlagomater = 0x2A44F20;
+
+}
